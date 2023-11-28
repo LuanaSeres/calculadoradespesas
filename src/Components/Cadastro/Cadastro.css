@@ -21,25 +21,6 @@
     color: #ffffff;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    cursor: pointer;
-    padding: 8px;
-    margin-bottom: 4px;
-    background-color: #546e7a;
-    border-radius: 5px;
-    font-size: 0.9rem;
-}
-
-li:hover {
-    background-color: #78909c;
-}
-
 .add-item-form {
     margin-top: 20px;
     /* Aumentei a margem superior para melhor espaçamento */
@@ -90,11 +71,6 @@ button:hover {
 @media screen and (max-width: 600px) {
     .cadastro {
         padding: 8px;
-    }
-
-    li {
-        padding: 6px;
-        font-size: 0.8rem;
     }
 
     input,
